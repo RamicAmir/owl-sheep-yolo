@@ -2,7 +2,7 @@ path: '/content/gdrive/ My Drive/Colab Notebooks/owl-sheep/data'  # dataset root
 train: images/train  # train images (relative to 'path')
 val: images/train  # val images (relative to 'path')
 
-# Classes
+# Classes, to help the model understand the data annotations.
 names:
   0: owl
   1: sheep
